@@ -4,8 +4,8 @@ version: "2.4"
 
 services:
   whoogle-search:
-    image: benbusby/whoogle-search
-    container_name: whoogle-search
+    image: whispin/whoogle-search
+    container_name: my-search
     restart: unless-stopped
     pids_limit: 50
     mem_limit: 256mb
